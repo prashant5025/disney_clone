@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,6 +15,9 @@ const Navbar = () => {
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl hover:text-indigo-600 cursor-pointer">BRAND.</h1>
 
           <ul className="hidden md:flex">
+          <li><Link to='text1' spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
+            
+
             <li className=" p-4 hover:text-indigo-600 cursor-pointer">Home</li>
             <li className=" p-4 hover:text-indigo-600 cursor-pointer">About</li>
             <li className=" p-4 hover:text-indigo-600 cursor-pointer">Support</li>

@@ -9,7 +9,6 @@ import {
 } from 'react-icons/fa'
 
 import Image1 from '../assets/img/cyber-bg.png';
-import Image2 from '../assets/img/support.jpg'
 
 
 
@@ -20,8 +19,8 @@ const Hero = () => {
         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
           <p className='text-2xl'>Unique Sequencing & Production</p>
           <h1 className='py-3 text-5xl md:text-7xl font-bold'>Cloud Management</h1>
-          <p className='text-2xl'>this is our Tech brand.</p>
-          <button className='py-3 px-6 sm:w-[60%]'>Get Started</button>
+          <p className='text-2xl'>This is our Tech brand.</p>
+          <button className='py-3 px-6 sm:w-[60%] mt-4'>Get Started</button>
         </div>
         <div>
           <img className='w-full' src={Image1} alt="img" />
